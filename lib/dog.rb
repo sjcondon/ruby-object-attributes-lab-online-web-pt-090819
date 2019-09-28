@@ -8,5 +8,12 @@ class Dog
   end 
 end 
 
-Beagle = Dog.new("Kanye")
-kanye.name #=> "Kanye"
+
+  def breed=(dogs_breed)
+    @breed = dogs_breed
+  end
+  
+    def breed
+    @breed
+  end 
+end 
