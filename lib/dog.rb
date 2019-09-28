@@ -8,3 +8,5 @@ class Dog
   end 
 end 
 
+Beagle = Dog.new("Kanye")
+kanye.name #=> "Kanye"
